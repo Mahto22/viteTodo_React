@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color:black;
+    padding: 0 50px;
+    color: white;
+    box-shadow: 0 3px 10px grey;
+}
+header > ul{
+   display: flex; 
+   gap: 20px;
+   list-style: none;
+}
+header > ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.logoImg{
+    width: 100px;
+    height: 76px;
+    padding-left: 0;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
